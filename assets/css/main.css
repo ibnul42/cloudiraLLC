@@ -72,6 +72,14 @@ a {
   transition: 0.3s;
 }
 
+.phone_link{
+  color: white;
+}
+
+.white_bg{
+  color: #3b4654;
+}
+
 a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
@@ -2497,11 +2505,11 @@ section,
 }
 
 header .sitename, footer .sitename {
-font-size: 14px !important;
+font-size: 10px !important;
 }
 
 @media only screen and (min-width: 600px) {
   header .sitename, footer .sitename {
-    font-size: 20px !important;
+    font-size: 14px !important;
   }
 }
